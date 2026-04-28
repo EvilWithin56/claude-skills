@@ -5,8 +5,8 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "build": "tsc"
+    "start": "node init && tsx src/index.ts",
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
